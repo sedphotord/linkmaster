@@ -1,0 +1,47 @@
+﻿node.exe : `next lint` 
+is deprecated and will 
+be removed in Next.js 
+16.
+En línea: 1 Carácter: 1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (`next lint` i   
+ s ... in Next.js 1    
+6.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+For new projects, use 
+create-next-app to 
+choose your preferred 
+linter.
+For existing projects, 
+migrate to the ESLint 
+CLI:
+npx 
+@next/codemod@canary ne
+xt-lint-to-eslint-cli .
+
+? How would you like to configure ESLint? https://nextjs.org/docs/app/api-reference/config/eslint
+[?25lÔØ»  Strict (recommended)
+   Base
+ ÔÜá If you set up 
+ESLint yourself, we 
+recommend adding the 
+Next.js ESLint plugin. 
+See https://nextjs.org/
+docs/app/api-reference/
+config/eslint#migrating
+-existing-config
+   Cancel[2K[1A[2K[1A[2K[G[?25h

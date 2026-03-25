@@ -1,0 +1,65 @@
+﻿   Ôû▓ Next.js 15.5.12
+   - Environments: .env.local
+   - Experiments (use with caution):
+     Ô£ô reactCompiler
+
+   Creating an optimized production build ...
+ Ô£ô Compiled successfully in 17.1s
+   Linting and checking validity of types ...
+node.exe : Failed to 
+compile.
+En línea: 1 Carácter: 1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Failed to com   
+ pile.:String) [],     
+RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+./vite.config.ts:2:39
+Type error: Cannot 
+find module 'vite' or 
+its corresponding type 
+declarations.
+
+[0m [90m 1 |[39m 
+[36mimport[39m path 
+[36mfrom[39m [32m'pa
+th'[39m[33m;[39m
+[31m[1m>[22m[39m[9
+0m 2 |[39m 
+[36mimport[39m { defi
+neConfig[33m,[39m 
+loadEnv } 
+[36mfrom[39m [32m'vi
+te'[39m[33m;[39m
+ [90m   |[39m        
+                       
+        
+[31m[1m^[22m[39m
+ [90m 3 |[39m 
+[36mimport[39m react 
+[36mfrom[39m [32m'@v
+itejs/plugin-react'[39
+m[33m;[39m
+ [90m 4 |[39m
+ [90m 5 |[39m 
+[36mexport[39m 
+[36mdefault[39m 
+defineConfig(({ mode 
+}) [33m=>[39m {[0m
+Next.js build worker 
+exited with code: 1 
+and signal: null

@@ -1,0 +1,32 @@
+﻿   Ôû▓ Next.js 15.4.11
+   - Environments: .env.local
+   - Experiments (use with caution):
+     Ô£ô reactCompiler
+
+   Creating an optimized production build ...
+ Ô£ô Compiled successfully in 17.0s
+   Linting and checking validity of types ...
+   Collecting page data ...
+node.exe : 
+En línea: 1 Carácter: 1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo            
+  : NotSpecifi    ed: 
+(:String) [],     
+RemoteException
+    + FullyQualifiedEr    
+rorId : NativeComm    andError
+ 
+> Build error occurred
+[Error: Page 
+"/[username]/kiosk" is 
+missing 
+"generateStaticParams()" so 
+it cannot be used with 
+"output: export" config.]
