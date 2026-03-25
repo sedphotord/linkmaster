@@ -67,11 +67,11 @@ export default function KioskPage() {
     const handleCheckout = () => {
         if (!profile || !profile.businessInfo.phone) return;
 
-        const total = cart.reduce((acc, curr) => acc + (curr.item.price || 0) * curr.quantity, 0);
+        const total = cart.reduce((acc, curr) => acc + (Number(curr.item.price) || 0) * curr.quantity, 0);
         let message = `Hola, quiero hacer un pedido para la *Mesa ${tableNumber}*:\n\n`;
 
         cart.forEach(line => {
-            message += `• ${line.quantity}x ${line.item.name} - $${((line.item.price || 0) * line.quantity).toFixed(2)}\n`;
+            message += `• ${line.quantity}x ${line.item.name} - $${((Number(line.item.price) || 0) * line.quantity).toFixed(2)}\n`;
         });
 
         message += `\n*Total: $${total.toFixed(2)}*`;
