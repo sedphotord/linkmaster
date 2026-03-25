@@ -1,12 +1,14 @@
 'use client';
 
+import { use } from 'react';
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { storage } from '@/lib/storage';
 
-export default function ShortLinkPage({ params }: { params: { code: string } }) {
+export default function ShortLinkPage({ params }: { params: Promise<{ code: string }> }) {
     const router = useRouter();
-    const { code } = params;
+    const { code } = use(params);
+
 
     useEffect(() => {
         // Find profile that has this link
